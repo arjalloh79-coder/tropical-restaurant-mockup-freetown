@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tropical Restaurant | Freetown</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .lang-fr { display: none; }
+    body.fr .lang-en { display: none; }
+    body.fr .lang-fr { display: block; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <div class="bg-amber-50 border-b border-amber-200 text-amber-900 text-center text-sm py-2 px-4">
+    Complimentary mockup by Al-Falah Marketing — nothing is live under your name.
+  </div>
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="font-bold text-xl text-slate-900">Tropical Restaurant</div>
+      <div class="flex items-center gap-4">
+        <button onclick="document.body.classList.toggle('fr')" class="text-sm px-3 py-1 rounded-full border">EN / FR</button>
+        <a href="https://wa.me/23233966966" class="bg-teal-600 text-white px-4 py-2 rounded-full text-sm font-medium">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+  <section class="relative h-[70vh] min-h-[480px] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80');">
+    <div class="absolute inset-0 bg-slate-900/50"></div>
+    <div class="relative z-10 h-full flex items-center justify-center text-center text-white px-4">
+      <div>
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 lang-en">Tropical Flavors by the Beach</h1>
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 lang-fr">Saveurs Tropicales en Bord de Mer</h1>
+        <p class="text-lg md:text-xl mb-6 max-w-2xl mx-auto lang-en">Fresh seafood, grilled specialties & poolside vibes at Sierra Palms Resort, Lumley Beach Road, Freetown.</p>
+        <p class="text-lg md:text-xl mb-6 max-w-2xl mx-auto lang-fr">Fruits de mer frais, grillades & ambiance piscine à Sierra Palms Resort, Lumley Beach Road, Freetown.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://wa.me/23233966966?text=Hello%20Tropical%20Restaurant%2C%20I%20would%20like%20to%20make%20a%20reservation" class="bg-teal-600 hover:bg-teal-700 px-8 py-3 rounded-full font-medium">Book a Table</a>
+          <a href="tel:+23233966966" class="border border-white px-8 py-3 rounded-full font-medium">Call +232 33 966 966</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="bg-slate-900 text-white text-sm py-3">
+    <div class="max-w-6xl mx-auto px-4 flex flex-wrap justify-center gap-6">
+      <span>🇺🇸 Laurel, MD</span>
+      <span>🇬🇳 Coyah, Guinea</span>
+      <span>🇸🇱 Freetown, Sierra Leone</span>
+    </div>
+  </div>
+  <section class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10 lang-en">Signature Dishes</h2>
+    <h2 class="text-3xl font-bold text-center mb-10 lang-fr">Plats Signature</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80" alt="Seafood" class="h-48 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-semibold text-lg mb-2">Seafood Platter</h3>
+          <p class="text-slate-600 text-sm">Fresh crab, shrimp, lobster & more.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Steak" class="h-48 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-semibold text-lg mb-2">Beef Steak</h3>
+          <p class="text-slate-600 text-sm">Perfectly grilled with local sides.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80" alt="Pizza" class="h-48 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-semibold text-lg mb-2">Wood-fired Pizza & Burgers</h3>
+          <p class="text-slate-600 text-sm">Family favorites by the pool.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-12 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Ambiance</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="py-16 px-4 text-center">
+    <h2 class="text-3xl font-bold mb-4">Reserve Your Table</h2>
+    <p class="mb-6">75 Lumley Beach Road / Sierra Palms Resort, Freetown</p>
+    <a href="https://wa.me/23233966966" class="inline-block bg-teal-600 text-white px-8 py-3 rounded-full font-medium">WhatsApp Now</a>
+  </section>
+  <footer class="bg-slate-900 text-slate-300 py-10 text-sm">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p class="mb-4">Mockup prepared for review by <strong>Al-Falah Marketing</strong></p>
+      <p>al-falahmarketing.com · info@al-falahmarketing.com · +1 240 280 6137 · +224 611 351 302</p>
+      <p class="mt-2">8468 Winding Trail, Laurel, MD 20724 · Coyah, Guinea · Freetown, Sierra Leone</p>
+      <p class="mt-4 text-xs opacity-70">This is a complimentary mockup. Nothing is published live under Tropical Restaurant’s name.</p>
+    </div>
+  </footer>
+  <div class="fixed bottom-0 left-0 right-0 bg-white border-t md:hidden flex z-40">
+    <a href="tel:+23233966966" class="flex-1 text-center py-3 text-sm font-medium">Call</a>
+    <a href="https://wa.me/23233966966" class="flex-1 text-center py-3 text-sm font-medium bg-teal-600 text-white">WhatsApp</a>
+  </div>
+</body>
+</html>
